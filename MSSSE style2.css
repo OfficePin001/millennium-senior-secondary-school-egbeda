@@ -1,0 +1,74 @@
+body{
+  background: 
+    linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), 
+    url('class.jpg');
+  position: absolute;
+  left: -8px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+}
+header{
+    display:flex ;
+    Justify-content:center ;
+    padding: 10px;
+    background:#68aa63;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: -8px;
+    height: 64px;
+    width: 100%;
+    
+}
+header h1{
+    font-family:"Times New Roman";
+    font-variant:small-caps;
+    text-align:center;
+    font-size:14px ;
+    font-weight:800;
+    color: #49000f;
+    background:#68aa63;
+    display:flex ;
+    position: relative;
+    bottom: 15px;
+    left: 45px;
+}
+div h2{
+    position: relative;
+    top: 2em;
+    padding: 19px;    
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background: transparent;
+    position: relative;
+    right: 20px;
+    bottom: -40px;   
+    border: 1px inset black;
+}
+.btn-form{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background: transparent;
+    position: fixed;
+    left: 73%;
+    bottom: 120px;
+    border: 1px inset black;
+}
+p{
+    padding: 19px;
+}
+.footer-copyright {
+    background-color:#68aa63;
+    position:fixed ;
+    bottom:0px ;
+    right:0px ;
+    left:0px ;
+}
